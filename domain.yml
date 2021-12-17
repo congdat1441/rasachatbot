@@ -1,0 +1,43 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - mood_great
+  - mood_unhappy
+  - mood_other
+
+responses:
+  utter_greet:
+  - text: "Xin chào, Bạn đang cảm thấy thế nào"
+  - text: "Tôi có thể giúp gì cho bạn?"
+  - text: "Hãy chia sẻ cảm xúc của bạn với tôi"
+
+  utter_cheer_up:
+  - text: "Đừng buồn, trong những lúc khó khăn một bài nhạc có lẽ sẽ giúp bạn vui hơn "
+    image: "https://www.youtube.com/watch?v=Gst9eDAr6Cg"
+
+  utter_did_that_help:
+  - text: "Điều này có thể giúp bạn chứ?"
+
+  utter_happy:
+  - text: "Thật tuyệt vời, Hãy trò chuyện và tôi sẽ giúp bạn nhiều hơn"
+
+  utter_goodbye:
+  - text: "Tạm biệt, cảm ơn bạn đã trò chuyện cùng tôi"
+
+  utter_rp_deny:
+  - text: "Chúng ta không sinh ra để thất bại, chúng ta sinh ra để thành công"
+  - text: "Hãy mạnh mẽ lên!!!"
+  utter_iamabot:
+  - text: "Tôi là Chatbot, Hỗ trợ bạn với tương tác trò chuyện và được tạo bởi rasa"
+
+  utter_rp_other:
+  - text: "Cuộc sống không có phấn đấu và cố gắng sẽ thật nhạt nhẽo"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

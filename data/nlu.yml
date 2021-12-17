@@ -1,0 +1,163 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - chào bot
+    - hi
+    - hello bot
+    - chào admin
+    - bắt đầu
+    - moin
+    - hey there
+    - bot ơi, cho mình hỏi
+    - bot ơi
+    - cho mình hỏi chút
+    - admin ơi cho mình hỏi với
+    - anh ơi
+    - em ơi
+    - chào ad
+    - chào bạn
+    - hi bot
+    - hey
+    - chào bot ạ
+    - Chào em
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - tạm biệt bot
+    - tạm biệt
+    - good by
+    - see you later
+    - bye
+
+- intent: thankyou
+  examples: |
+    - cảm ơn em nhá
+    - thanks em nha
+    - cảm ơn nha
+    - good job
+    - thank you
+    - cảm ơn bot nha
+    - thanks bot
+    - cảm ơn
+    - thank you so much
+    - great! Thanks
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - không hay 
+    - tôi muốn cái khác 
+    - không 
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: mood_great    #enjoyment
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - Cái đó hay nhỉ 
+    - Vui nhỉ 
+    - Đừng khiến tôi cười nữa 
+    -	một hành động đẹp đầy tính nhân văn ☺️☺️
+    -	có ai như tao vô đọc bình luận 🤣 tao cười tao xĩu
+    -	góp vui cho chủ thớt 😂😂
+    -	nghe ngọt thế :((
+    -	mệt vãi .. mà cừời cũng vãi ??????
+
+- intent: mood_unhappy  #Sadness
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - Không đồng ý với tôi
+    - chia tay 
+    - buồn 
+    - cô đơn
+    - lạc lõng 
+    - lạnh lẽo
+    -	người ta có bạn bè nhìn vui thật
+    -	sống 17 năm chưa crush ai bao giờ
+    -	per khi ế nhưng vẫn phải giương mắt nhìn bọn nó ân ái
+    -	nhưng tao đéo có crush
+    -	mặt chúng bạn kiểu lại đéo được trả tiền rồi 😞
+    -	nhìn thôi cũng đau lòng :))
+    -	tôi còn chẳng lấy ảnh lớp cho nữa
+    -	tôi cũng muốn được cảm thấy như vậy ??
+    -	đến năm cuối đại học rồi lúc nhớ lại đéo có gì :))
+    -	tên của tao nghe rất bình thương , không có gì đặc sắc nên nhiều khi nghĩ cùng buồn tẹo.
+
+- intent: mood_other   #Other
+  examples: |
+    - Bình thường mà 
+    - Chẳng thấy sao cả 
+    - Tôi chẳng biết cảm xúc của mình là gì 
+    - Không thấy sao cả 
+    - Im Okay
